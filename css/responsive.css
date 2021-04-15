@@ -123,7 +123,7 @@
 
   @media (max-width: 768px) {
     .book-info {
-      padding-top: 100px;
+      padding-top: 0px;
     }
     .featured-client img {
       margin: 20px 0px;
