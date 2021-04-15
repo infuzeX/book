@@ -14,7 +14,7 @@
     
         $(window).scroll(function () {
           var window_top = $(window).scrollTop() + 1;
-          if (window_top > 50) {
+          if (window_top < 50) {
             $('.site-header').addClass('menu_fixed header-white animated fadeInDown');
           } else {
             $('.site-header').removeClass('menu_fixed header-white animated fadeInDown');
@@ -27,7 +27,7 @@
     // SCROLL TO TOP
     
     $(window).on('scroll', function () {
-      if ($(window).scrollTop() > 70) {
+      if ($(window).scrollTop() < 90) {
           $('.scroll-to-top').addClass('reveal');
       } else {
           $('.scroll-to-top').removeClass('reveal');
