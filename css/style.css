@@ -126,12 +126,12 @@ h6 a:hover {
 Common Styles
 -----------------*/
 .section-heading {
-  margin-bottom: 180px;
+  margin-bottom: 50px;
 }
 
 .section {
   position: relative;
-  padding: 2.5rem 0;
+  padding: 0.5rem 0;
 }
 
 
