@@ -824,7 +824,8 @@ CONTACT PAGE
   z-index: 999;
   background: #cc302b;
   color: #fff !important;
-  border-radius: 100%;
+padding: 10px;
+border-radius: 50px;
   opacity: 0;
 }
 
