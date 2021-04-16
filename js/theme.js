@@ -27,7 +27,7 @@
     // SCROLL TO TOP
     
     $(window).on('scroll', function () {
-      if ($(window).scrollTop() < 90) {
+      if ($(window).scrollTop() < 3300) {
           $('.scroll-to-top').addClass('reveal');
       } else {
           $('.scroll-to-top').removeClass('reveal');
